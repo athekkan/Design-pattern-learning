@@ -21,8 +21,8 @@ public class Test {
 	public static void main(String[] args) {
 	
 		Parent p = new Child();						
-		System.out.println(p.val );
-		System.out.println(p.print());
+		System.out.println(p.val );  // P -- parent val
+		System.out.println(p.print()); // "Inside Child C -- child method
 
 	}
 
